@@ -1,0 +1,199 @@
+{
+  "menu": {
+    "starter": {
+      "soups": [
+        {
+          "id": "53077",
+          "meal": "Cabbage Soup (Shchi)",
+          "category": "Vegetarian",
+          "origin": "Ukrainian",
+          "thumb": "https://www.themealdb.com/images/media/meals/60oc3k1699009846.jpg",
+          "tags": "soup"
+        },
+        {
+          "id": "52911",
+          "meal": "Summer Pistou",
+          "category": "Vegetarian",
+          "origin": "French",
+          "thumb": "https://www.themealdb.com/images/media/meals/rqtxvr1511792990.jpg",
+          "tags": "soup"
+        },
+        {
+          "id": "53020",
+          "meal": "Polish Chicken Soup",
+          "category": "Chicken",
+          "origin": "Polish",
+          "thumb": "https://www.themealdb.com/images/media/meals/lx1kkj1593349302.jpg",
+          "tags": "soup"
+        }
+      ],
+      "cheeseStarter": [
+        {
+          "id": "52779",
+          "meal": "Cream Cheese Tart",
+          "category": "Starter",
+          "origin": "Unknown",
+          "thumb": "https://www.themealdb.com/images/media/meals/lx1kkj1593349302.jpg",
+          "tags": "Tart,cheese tart,Savory"
+        }
+      ]
+    },
+    "main": [
+      {
+        "id": "52802",
+        "meal": "Fish pie",
+        "category": "Seafood",
+        "origin": "British",
+        "thumb": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg",
+        "tags": "Fish,Pie"
+      },
+      {
+        "id": "52851",
+        "meal": "Nutty Chicken Curry",
+        "category": "Chicken",
+        "origin": "Indian",
+        "thumb": "https://www.themealdb.com/images/media/meals/yxsurp1511304301.jpg",
+        "tags": "Hot,Curry"
+      },
+      {
+        "id": "52820",
+        "meal": "Katsu Chicken curry",
+        "category": "Chicken",
+        "origin": "Japanese",
+        "thumb": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg",
+        "tags": "Curry,Meat,Chicken"
+      },
+      {
+        "id": "52927",
+        "meal": "Montreal Smoked Meat",
+        "category": "Beef",
+        "origin": "Canadian",
+        "thumb": "https://www.themealdb.com/images/media/meals/uttupv1511815050.jpg",
+        "tags": "Speciality,Snack,StrongFlavor"
+      },
+      {
+        "id": "52843",
+        "meal": "Lamb Tagine",
+        "category": "Lamb",
+        "origin": "Moroccan",
+        "thumb": "https://www.themealdb.com/images/media/meals/yuwtuu1511295751.jpg",
+        "tags": "Speciality,Lamb,StrongFlavor,Fruity"
+      },
+      {
+        "id": "52942",
+        "meal": "Roast fennel and aubergine paella",
+        "category": "Vegan",
+        "origin": "Spanish",
+        "thumb": "https://www.themealdb.com/images/media/meals/1520081754.jpg",
+        "tags": "Vegan,Paella"
+      },
+      {
+        "id": "52852",
+        "meal": "Tuna Nicoise",
+        "category": "Seafood",
+        "origin": "French",
+        "thumb": "https://www.themealdb.com/images/media/meals/yypwwq1511304979.jpg",
+        "tags": "Tuna, Potatoes"
+      },
+      {
+        "id": "53060",
+        "meal": "Burek",
+        "category": "Beef",
+        "origin": "Croatian",
+        "thumb": "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg",
+        "tags": "Speciality,Snack,Streetfood,Onthego"
+      },
+      {
+        "id": "52772",
+        "meal": "Teriyaki Chicken Casserole",
+        "category": "Chicken",
+        "origin": "Japanese",
+        "thumb": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
+        "tags": "Meat,Casserole"
+      },
+      {
+        "id": "52782",
+        "meal": "Lamb tomato and sweet spices",
+        "category": "Lamb",
+        "origin": "Moroccan",
+        "thumb": "https://www.themealdb.com/images/media/meals/qtwtss1468572261.jpg",
+        "tags": "Speciality,Lamb,Fruity"
+      },
+      {
+        "id": "53048",
+        "meal": "Mee goreng mamak",
+        "category": "Seafood",
+        "origin": "Malaysian",
+        "thumb": "https://www.themealdb.com/images/media/meals/xquakq1619787532.jpg",
+        "tags": "Chilli, Prawns, Stir fry"
+      },
+      {
+        "id": "53021",
+        "meal": "Polish Cabbage Roll",
+        "category": "Beef",
+        "origin": "Polish",
+        "thumb": "https://www.themealdb.com/images/media/meals/q8sp3j1593349686.jpg",
+        "tags": "Beef rolls"
+      },
+      {
+        "id": "52994",
+        "meal": "Skillet Apple Pork Chops with Roasted Sweet Potatoes & Zucchini",
+        "category": "Pork",
+        "origin": "American",
+        "thumb": "https://www.themealdb.com/images/media/meals/h3ijwo1581013377.jpg",
+        "tags": "Zucchini, Pork"
+      },
+      {
+        "id": "52871",
+        "meal": "Yaki Udon",
+        "category": "Vegetarian",
+        "origin": "Japanese",
+        "thumb": "https://www.themealdb.com/images/media/meals/wrustq1511475474.jpg",
+        "tags": "Low Calorie, Udon Noodles"
+      },
+      {
+        "id": "52907",
+        "meal": "Duck Confit",
+        "category": "Duck",
+        "origin": "French",
+        "thumb": "https://www.themealdb.com/images/media/meals/wvpvsu1511786158.jpg",
+        "tags": "Duck"
+      }
+    ],
+    "dessert": [
+      {
+        "id": "53080",
+        "meal": "Blini Pancakes",
+        "category": "Dessert",
+        "origin": "Ukrainian",
+        "thumb": "https://www.themealdb.com/images/media/meals/0206h11699013358.jpg",
+        "tags": "Pancake"
+      },
+      {
+        "id": "52910",
+        "meal": "Chinon Apple Tarts",
+        "category": "Dessert",
+        "origin": "French",
+        "thumb": "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg",
+        "tags": "Tart"
+      },
+      {
+        "id": "52899",
+        "meal": "Dundee cake",
+        "category": "Dessert",
+        "origin": "British",
+        "thumb": "https://www.themealdb.com/images/media/meals/wxyvqq1511723401.jpg",
+        "tags": "heavy,Nutty,Fruity"
+      },
+      {
+        "id": "53024",
+        "meal": "Polish Croissant Cookies",
+        "category": "Dessert",
+        "origin": "Polish",
+        "thumb": "https://www.themealdb.com/images/media/meals/7mxnzz1593350801.jpg",
+        "tags": "Cookie,Cream Cheese"
+      }
+    ],
+    "beverage": {}
+  }
+}
