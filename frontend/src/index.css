@@ -42,4 +42,12 @@
   .active-nav-item {
     @apply underline decoration-2;
   }
+
+  .icon {
+    @apply text-sm text-app_blue dark:text-white;
+  }
+
+  .icon-basket-count {
+    @apply absolute min-h-3 min-w-3 bg-app_yellow text-black border-r-2 -top-3 -right-3;
+  }
 }

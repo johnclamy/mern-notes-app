@@ -9,10 +9,15 @@ const NavbarTop = () => (
       </a>
       <div className="flex items-center space-x-6 rtl:space-x-reverse">
         <a href="/">
-          <FaSearch className="text-sm  text-app_blue dark:text-white" />
+          <FaSearch className="icon" />
         </a>
         <a href="/">
-          <FaShoppingBasket className="text-sm  text-app_blue dark:text-white" />
+          <div className="flex justify-center items-center relative">
+            <FaShoppingBasket className="icon" />
+            <span className="absolute top-2/3 right-1/2 bg-app_yellow text-black text-sm w-5 h-5 rounded-full flex justify-center items-center">
+              0
+            </span>
+          </div>
         </a>
         <a
           href="/"
