@@ -14,23 +14,42 @@ const NavbarBottom = () => {
                 className={`nav-link ${
                   linkItem === "home" ? "active-nav-item" : ""
                 }`}
+                onClick={() => setLinkItem("home")}
                 aria-current="page"
               >
                 home
               </a>
             </li>
             <li>
-              <a href="/" className="nav-link">
+              <a
+                href="/"
+                className={`nav-link ${
+                  linkItem === "menu" ? "active-nav-item" : ""
+                }`}
+                onClick={() => setLinkItem("menu")}
+              >
                 menu
               </a>
             </li>
             <li>
-              <a href="/" className="nav-link">
+              <a
+                href="/"
+                className={`nav-link ${
+                  linkItem === "mobile-app" ? "active-nav-item" : ""
+                }`}
+                onClick={() => setLinkItem("mobile-app")}
+              >
                 mobile-app
               </a>
             </li>
             <li>
-              <a href="/" className="nav-link">
+              <a
+                href="/"
+                className={`nav-link ${
+                  linkItem === "contact us" ? "active-nav-item" : ""
+                }`}
+                onClick={() => setLinkItem("contact us")}
+              >
                 contact us
               </a>
             </li>
