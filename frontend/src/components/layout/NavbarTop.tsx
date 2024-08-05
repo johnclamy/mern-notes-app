@@ -16,7 +16,7 @@ const NavbarTop = () => (
         </a>
         <a
           href="/"
-          className="text-sm  text-app_blue dark:text-app_yellow hover:underline"
+          className="text-sm font-semibold text-app_blue decoration-4 decoration-app_yellow dark:text-app_yellow hover:text-app_yellow hover:no-underline transition"
         >
           Login
         </a>
