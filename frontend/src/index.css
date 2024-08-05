@@ -34,4 +34,12 @@
   .btn-accent {
     @apply bg-app_yellow text-slate-900;
   }
+
+  .nav-link {
+    @apply text-gray-900 dark:text-white capitalize no-underline hover:underline hover:decoration-2;
+  }
+
+  .active-nav-item {
+    @apply underline decoration-2;
+  }
 }

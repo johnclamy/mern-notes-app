@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const NavbarBottom = () => {
+  const [linkItem, setLinkItem] = useState("home");
+
   return (
     <section className="bg-gray-50 dark:bg-gray-700">
       <div className="max-w-screen-xl px-4 py-3 mx-auto">
@@ -7,33 +11,26 @@ const NavbarBottom = () => {
             <li>
               <a
                 href="/"
-                className="text-gray-900 dark:text-white capitalize hover:underline"
+                className={`nav-link ${
+                  linkItem === "home" ? "active-nav-item" : ""
+                }`}
                 aria-current="page"
               >
                 home
               </a>
             </li>
             <li>
-              <a
-                href="/"
-                className="text-gray-900 dark:text-white capitalize hover:underline"
-              >
+              <a href="/" className="nav-link">
                 menu
               </a>
             </li>
             <li>
-              <a
-                href="/"
-                className="text-gray-900 dark:text-white capitalize hover:underline"
-              >
+              <a href="/" className="nav-link">
                 mobile-app
               </a>
             </li>
             <li>
-              <a
-                href="/"
-                className="text-gray-900 dark:text-white capitalize hover:underline"
-              >
+              <a href="/" className="nav-link">
                 contact us
               </a>
             </li>
