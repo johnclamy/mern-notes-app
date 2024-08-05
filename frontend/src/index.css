@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-app_blue text-3xl font-bold mb-2;
+  }
+
+  h2 {
+    @apply text-inherit text-2xl font-semibold mb-1;
+  }
+
+  h3 {
+    @apply text-app_blue text-xl font-semibold mb-1;
+  }
+
+  a {
+    @apply text-blue-600 underline underline-offset-4 decoration-app_blue hover:text-app_blue hover:no-underline transition;
+  }
+
+  .btn {
+    @apply cursor-pointer px-4 py-2 rounded-md hover:transition hover:duration-300 hover:opacity-80;
+  }
+
+  .btn-primary {
+    @apply bg-app_blue text-white;
+  }
+
+  .btn-secondary {
+    @apply bg-app_grey text-app_blue;
+  }
+
+  .btn-accent {
+    @apply bg-app_yellow text-slate-900;
+  }
+}
