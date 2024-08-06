@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NavbarBottom = () => {
   const [linkItem, setLinkItem] = useState("home");
@@ -9,8 +10,8 @@ const NavbarBottom = () => {
         <div className="flex items-center">
           <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
             <li>
-              <a
-                href="/"
+              <Link
+                to="/"
                 className={`nav-link ${
                   linkItem === "home" ? "active-nav-item" : ""
                 }`}
@@ -18,40 +19,40 @@ const NavbarBottom = () => {
                 aria-current="page"
               >
                 home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/menu"
                 className={`nav-link ${
                   linkItem === "menu" ? "active-nav-item" : ""
                 }`}
                 onClick={() => setLinkItem("menu")}
               >
                 menu
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/mobile-app"
                 className={`nav-link ${
                   linkItem === "mobile-app" ? "active-nav-item" : ""
                 }`}
                 onClick={() => setLinkItem("mobile-app")}
               >
                 mobile-app
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/contact-us"
                 className={`nav-link ${
                   linkItem === "contact us" ? "active-nav-item" : ""
                 }`}
                 onClick={() => setLinkItem("contact us")}
               >
                 contact us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
