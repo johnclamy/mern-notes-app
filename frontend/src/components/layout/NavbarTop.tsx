@@ -1,18 +1,23 @@
 import { Link } from "react-router-dom";
 import { FaSearch, FaShoppingBasket } from "react-icons/fa";
+import { LinkItem } from "./Navbar";
 import Logo from "../widgets/Logo";
 
-const NavbarTop = () => (
+const NavbarTop = ({
+  onNavLinkClick,
+}: {
+  onNavLinkClick: (linkItem: LinkItem) => void;
+}) => (
   <section className="bg-white border-app_grey dark:bg-gray-900">
     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-      <Link to="/">
+      <Link to="/" onClick={() => onNavLinkClick("home")}>
         <Logo />
       </Link>
       <div className="flex items-center space-x-6 rtl:space-x-reverse">
         <Link to="/">
           <FaSearch className="icon" />
         </Link>
-        <Link to="/">
+        <Link to="/cart" onClick={() => onNavLinkClick("cart")}>
           <div className="flex justify-center items-center relative">
             <FaShoppingBasket className="icon" />
             <span className="absolute top-2/3 right-1/2 bg-app_yellow text-black text-sm w-5 h-5 rounded-full flex justify-center items-center">

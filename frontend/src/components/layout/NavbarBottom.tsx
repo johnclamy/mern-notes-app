@@ -1,9 +1,13 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
+import { LinkItem } from "./Navbar";
 
-const NavbarBottom = () => {
-  const [linkItem, setLinkItem] = useState("home");
-
+const NavbarBottom = ({
+  linkItem,
+  onNavLinkClick,
+}: {
+  linkItem: LinkItem;
+  onNavLinkClick: (linkItem: LinkItem) => void;
+}) => {
   return (
     <section className="bg-gray-50 dark:bg-gray-700">
       <div className="max-w-screen-xl px-4 py-3 mx-auto">
@@ -15,7 +19,7 @@ const NavbarBottom = () => {
                 className={`nav-link ${
                   linkItem === "home" ? "active-nav-item" : ""
                 }`}
-                onClick={() => setLinkItem("home")}
+                onClick={() => onNavLinkClick("home")}
                 aria-current="page"
               >
                 home
@@ -27,7 +31,7 @@ const NavbarBottom = () => {
                 className={`nav-link ${
                   linkItem === "menu" ? "active-nav-item" : ""
                 }`}
-                onClick={() => setLinkItem("menu")}
+                onClick={() => onNavLinkClick("menu")}
               >
                 menu
               </Link>
@@ -38,7 +42,7 @@ const NavbarBottom = () => {
                 className={`nav-link ${
                   linkItem === "mobile-app" ? "active-nav-item" : ""
                 }`}
-                onClick={() => setLinkItem("mobile-app")}
+                onClick={() => onNavLinkClick("mobile-app")}
               >
                 mobile-app
               </Link>
@@ -49,7 +53,7 @@ const NavbarBottom = () => {
                 className={`nav-link ${
                   linkItem === "contact us" ? "active-nav-item" : ""
                 }`}
-                onClick={() => setLinkItem("contact us")}
+                onClick={() => onNavLinkClick("contact us")}
               >
                 contact us
               </Link>
