@@ -1,5 +1,7 @@
+import { MdOutlineRestaurantMenu } from "react-icons/md";
 import Main from "../components/layout/Main";
 import hero from "../assets/imgs/hero.jpg";
+import HeroButton from "../components/widgets/HeroButton";
 
 const Home = () => {
   return (
@@ -22,6 +24,10 @@ const Home = () => {
             delectus, rem harum, quia nemo tempore minus blanditiis magni
             deserunt veritatis?
           </p>
+          <HeroButton>
+            See our Menu &nbsp;
+            <MdOutlineRestaurantMenu />
+          </HeroButton>
         </div>
       </section>
     </Main>
