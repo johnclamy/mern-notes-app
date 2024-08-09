@@ -1,9 +1,12 @@
 import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 import Main from "../components/layout/Main";
 import hero from "../assets/imgs/hero.jpg";
 import HeroButton from "../components/widgets/HeroButton";
 
 const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <Main>
       {/* hero section */}
@@ -18,14 +21,14 @@ const Home = () => {
           <h1 className="text-4xl text-white font-bold">
             Order your favourite food here!
           </h1>
-          <p className="text-xl text-white text-center mt-4 mx-36">
+          <p className="text-xl text-white text-center mt-4 mx-36 mb-16">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
             placeat? Sunt, nisi quo fugiat ipsa reiciendis quaerat id natus
             delectus, rem harum, quia nemo tempore minus blanditiis magni
             deserunt veritatis?
           </p>
-          <HeroButton>
-            See our Menu &nbsp;
+          <HeroButton handleClick={() => navigate("/menu")}>
+            Explore our Menu &nbsp;
             <MdOutlineRestaurantMenu />
           </HeroButton>
         </div>
