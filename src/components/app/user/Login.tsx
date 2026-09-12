@@ -7,7 +7,8 @@ const Login: React.FC = () => {
                     e.preventDefault()
                     // Handle login logic here
                 }}
-                className="bg-white p-6 rounded shadow-md w-full max-w-sm">
+                className="bg-white p-6 rounded shadow-md w-full max-w-sm"
+            >
                 <div className="mb-4">
                     <label
                         htmlFor="username"
@@ -31,15 +32,14 @@ const Login: React.FC = () => {
                         type="password"
                         id="password"
                         name="password"
-                        className="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:border-blue-300"
+                        className="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:border-blue-300 cursor-pointer"
                     />
                 </div>
-                <button
+                <input
                     type="submit"
+                    value="Login"
                     className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200"
-                >
-                    Login
-                </button>
+                />
             </form>
         </div>
     )
