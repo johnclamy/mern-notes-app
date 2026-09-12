@@ -20,7 +20,7 @@ const Wrapper = ({ children }: WrapperProps) => {
 			}}
 		>
 			<div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8">
-				<div className="grid flex-1 grid-cols-1 gap-4 rounded-3xl border border-white/10 bg-white/[0.045] p-3 shadow-2xl shadow-black/20 backdrop-blur-xl sm:gap-5 sm:p-5 lg:grid-cols-12 lg:p-6">
+				<div className="grid flex-1 grid-cols-1 gap-4 rounded-3xl border border-white/10 bg-white/4.5 p-3 shadow-2xl shadow-black/20 backdrop-blur-xl sm:gap-5 sm:p-5 lg:grid-cols-12 lg:p-6">
 					{children}
 				</div>
 			</div>
