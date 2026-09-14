@@ -1,11 +1,10 @@
-import { type LogoutProps } from './IUser'
+// mport { type LogoutProps } from './IUser'
 
 
-const Logout: React.FC<LogoutProps> = ({ setUser }) => {
+const Logout: React.FC = () => {
     return (
         <form onSubmit={(e) => {
             e.preventDefault()
-            setUser('')
         }}>
             <input
                 type="submit"
