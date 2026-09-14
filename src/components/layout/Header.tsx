@@ -1,9 +1,9 @@
 {/* micro-blog-project/src/components/layout/Header.tsx */}
 import AuthBar from './AuthBar'
-import type LoginNavigationProps from './interface'
+// import type LoginNavigationProps from './interface'
 
 
-const Header: React.FC<LoginNavigationProps> = ({ onLogin }) => {
+const Header: React.FC = () => {
     return (
         <header className="sticky top-4 z-50 col-span-full w-full px-3 sm:px-4">
             <div className="mx-auto max-w-6xl">
@@ -18,7 +18,7 @@ const Header: React.FC<LoginNavigationProps> = ({ onLogin }) => {
                         </div>
                         <h1 className="text-lg sm:text-xl font-semibold tracking-tight text-slate-800 whitespace-nowrap">micro-post</h1>
                     </div>
-                    <AuthBar onLogin={onLogin} />
+                    <AuthBar />
                 </div>
             </div>
         </header>
