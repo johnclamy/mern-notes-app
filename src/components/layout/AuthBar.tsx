@@ -1,20 +1,19 @@
 {/* micro-post-project/src/components/layout/AuthBar.tsx */}
 import { useState } from 'react'
 import Logout from '../app/user/Logout'
-import type LoginNavigationProps from './interface'
+// mport type LoginNavigationProps from './interface'
 
 
-const AuthBar: React.FC<LoginNavigationProps> = ({ onLogin }) => {
+const AuthBar: React.FC = () => {
     const [ user, setUser ] = useState('')
 
     return (
         <nav className="flex items-center gap-1.5 sm:gap-2 shrink-0">
             {user ? (
-                <Logout setUser={setUser} />
+                <Logout />
             ) : (
                 <>
                     <button
-                        onClick={onLogin}
                         className="rounded-xl bg-white/50 px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-medium text-slate-700 border border-white/40 transition-all hover:bg-white/70 hover:text-slate-900 whitespace-nowrap"
                     >
                         Login
