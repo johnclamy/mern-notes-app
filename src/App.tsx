@@ -1,15 +1,14 @@
 {/* micro-blog-project/src/App.tsx */}
-import Wrapper from './components/layout/Wrapper'
-import Header from './components/layout/Header'
-import PostList from './components/app/post/PostList'
+import { RouterProvider } from "react-router-dom"
+import { AuthProvider } from "./context/AuthContext"
+import router from "./routes/router"
 
 
 const App: React.FC = () => {
-    return (        
-        <Wrapper>
-            <Header />
-            <PostList />
-        </Wrapper>
+    return (
+        <AuthProvider>
+            <RouterProvider router={router} />
+        </AuthProvider>
     )
 }
 
