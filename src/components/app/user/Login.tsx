@@ -19,7 +19,7 @@ const Login: React.FC = () => {
                         type="text"
                         id="username"
                         name="username"
-                        className="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:border-blue-300"
+                        className="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:border-zinc-300"
                     />
                 </div>
                 <div className="mb-4">
@@ -32,13 +32,13 @@ const Login: React.FC = () => {
                         type="password"
                         id="password"
                         name="password"
-                        className="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:border-blue-300 cursor-pointer"
+                        className="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:border-zinc-300"
                     />
                 </div>
                 <input
                     type="submit"
                     value="Login"
-                    className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200"
+                    className="w-full bg-zinc-500 text-white py-2 px-4 rounded hover:bg-zinc-600 transition duration-200 cursor-pointer"
                 />
             </form>
         </div>
