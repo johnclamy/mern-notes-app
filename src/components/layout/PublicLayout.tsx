@@ -16,7 +16,7 @@ const PublicLayout: React.FC = () => {
         <div className="flex flex-col min-h-screen bg-linear-to-br from-blue-50 to-indigo-100">
             {/* Optional: A simplified public header */}
             <header className="p-4 text-center">
-                <h1 className="text-2xl font-bold text-indigo-600">MyApp</h1>
+                <h1 className="text-2xl tracking-wider font-bold text-zinc-400 [word-spacing:-3px]">micro - post</h1>
             </header>
         
             <main className="grow flex items-center justify-center p-6">
