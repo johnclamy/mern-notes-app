@@ -13,13 +13,13 @@ const PublicLayout: React.FC = () => {
 
     return (
         // Public pages usually have a simpler background and no heavy header/footer
-        <div className="flex flex-col min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div className="flex flex-col min-h-screen bg-linear-to-br from-blue-50 to-indigo-100">
             {/* Optional: A simplified public header */}
             <header className="p-4 text-center">
                 <h1 className="text-2xl font-bold text-indigo-600">MyApp</h1>
             </header>
         
-            <main className="flex-grow flex items-center justify-center p-6">
+            <main className="grow flex items-center justify-center p-6">
                 <Outlet />
             </main>
         
