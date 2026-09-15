@@ -8,7 +8,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
     // In a real app, check localStorage or a cookie for a token
-    const [ isAuthenticated, setIsAuthenticated] = useState(false)
+    const [ isAuthenticated, setIsAuthenticated] = useState(true)
 
     const login = () => setIsAuthenticated(true)
     const logout = () => setIsAuthenticated(false)
