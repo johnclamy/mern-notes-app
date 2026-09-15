@@ -14,4 +14,5 @@ const PostList: React.FC = () => {
     );
 };
 
+
 export default PostList;
